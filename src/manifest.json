@@ -1,0 +1,14 @@
+{
+  "name": "chrome-ex-zoom-comment-stream",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "chrome-ex-zoom-comment-stream",
+  "content_scripts": [
+    {
+      "matches": ["https://app.zoom.us/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [{ "resources": ["injected.js"], "matches": ["https://app.zoom.us/*"]}]
+}
