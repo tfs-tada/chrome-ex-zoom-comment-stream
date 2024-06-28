@@ -36,7 +36,11 @@ chrome://extensions/
 5. ブラウザ上で zoom ミーティングに参加します
 
 - https://app.zoom.us/wc/home からアクセスし、ブラウザ上でミーティングに参加します。
-- PWA モードは解除してください（URL に fromPWA と入っていたら PWA モードです）
 - チャット欄を表示しておくことで、自動で localhost:5100 にコメントがストリーミングされます。
 
 ![zoom ミーティングに参加](https://github.com/tfs-tada/chrome-ex-zoom-comment-stream/assets/74394709/798c3f19-06ff-41cf-be25-83205b89edb3)
+
+- PWA モードは解除してください（URL に fromPWA と入っていたら PWA モードです）
+  - PWA モードを検知すると、リロード要求のアラートが表示されることがあります
+
+![PWA モードを解除](https://github.com/tfs-tada/chrome-ex-zoom-comment-stream/assets/74394709/d5be11b0-050a-46b8-b727-1a905ea9d7b6)
