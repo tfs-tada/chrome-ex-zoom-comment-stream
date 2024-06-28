@@ -6,7 +6,7 @@ http://localhost:5100/comments にコメントがストリーミングされま�
 
 ```ts
 type Response = {
-  comment: string
+  comment: string;
 };
 ```
 
@@ -36,7 +36,7 @@ chrome://extensions/
 5. ブラウザ上で zoom ミーティングに参加します
 
 - https://app.zoom.us/wc/home からアクセスし、ブラウザ上でミーティングに参加します。
-- PWAモードは解除してください（URLに fromPWA と入っていたらPWAモードです）
+- PWA モードは解除してください（URL に fromPWA と入っていたら PWA モードです）
 - チャット欄を表示しておくことで、自動で localhost:5100 にコメントがストリーミングされます。
 
 ![zoom ミーティングに参加](https://github.com/tfs-tada/chrome-ex-zoom-comment-stream/assets/74394709/798c3f19-06ff-41cf-be25-83205b89edb3)
